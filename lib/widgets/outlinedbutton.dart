@@ -49,6 +49,7 @@ class _OutlineButtonState extends State<OutlineButton> {
             ),
             OutlinedButton(
                 style: const ButtonStyle(
+                    elevation: WidgetStatePropertyAll(0),
                     // iconColor: WidgetStatePropertyAll(Colors.black),
                     // iconSize: WidgetStatePropertyAll(30),
                     overlayColor: WidgetStatePropertyAll(Colors.green),
