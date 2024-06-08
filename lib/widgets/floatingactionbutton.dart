@@ -63,7 +63,7 @@ class _FloatingActionButtonWidgetState
                   child: const Icon(Icons.remove),
                 ),
                 const SizedBox(
-                  width: 30,
+                  width: 50,
                 ),
                 FloatingActionButton(
                   backgroundColor: Colors.green.shade300,
