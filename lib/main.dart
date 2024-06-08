@@ -1,4 +1,4 @@
-import 'package:cheatsheet/widgets/ink.dart';
+import 'package:cheatsheet/widgets/draggable.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme:
           ThemeData(brightness: Brightness.light, primaryColor: Colors.yellow),
-      home: const InkWidget(),
+      home: const DraggableWidget(),
     );
   }
 }
